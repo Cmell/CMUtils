@@ -1,0 +1,10 @@
+Package: CMUtils
+Title: Utility Functions I Often Use
+Version: 0.0.0.9000
+Authors@R: person("Chris", "Melllinger", email = "clmellinger@gmail.com", role = c("aut", "cre"))
+Description: This package includes a few functions that I often use. Most are modifications of existing packages or functions.
+Depends: R (>= 3.3.3)
+License: Free as in speech (libre)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
