@@ -1,6 +1,12 @@
 lmSummary <- function (object, correlation = FALSE, symbolic.cor = FALSE, 
           ...) 
 {
+  #' Based on `summary.lm`, this function prints `lm()` objects with extra info.
+  #' 
+  #' @param object The `lm` object to report results from.
+  #' @param correlation Prints partial correlations instead of R^2
+  #' @export lmSummary
+  
   z <- object
   p <- z$rank
   rdf <- z$df.residual

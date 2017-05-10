@@ -9,6 +9,7 @@ makePdf <- function(file, plotFn, printToDefaultDev=T, ...) {
   #'be called without opening the pdf graphics device. Thus, it will print to 
   #'the screen, or in your markdown output, etc.
   #'
+  #' @export makePdf
   if (printToDefaultDev) {
     plotFn()
   }

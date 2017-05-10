@@ -3,6 +3,8 @@ logitToP <- function (l) {
   #' 
   #' @param l The logit.
   #' @return The probability.
+  #' 
+  #' @export logitToP
   1 / (1 + exp(-(l)))
 }
 
@@ -11,6 +13,8 @@ pToLogit <- function (p) {
   #' 
   #' @param p The probability.
   #' @return The logit.
+  #' 
+  #' @export pToLogit
   log(p/(1-p))
 }
 
@@ -19,6 +23,8 @@ pToOdds <- function (p) {
   #' 
   #' @param p The probability.
   #' @return The odds ratio.
+  #' 
+  #' @export pToOdds
   p/(1-p)
 }
 
@@ -27,6 +33,8 @@ oddsToP <- function (o) {
   #' 
   #' @param o The odds ratio.
   #' @return The probability.
+  #' 
+  #' @export oddsToP
   o/(o+1)
 }
 
@@ -35,6 +43,8 @@ logitToOdds <- function (l) {
   #' 
   #' @param l The logit.
   #' @return The odds ratio.
+  #' 
+  #' @export logitToOdds
   exp(l)
 }
 
@@ -43,5 +53,7 @@ oddsToLogit <- function (o) {
   #' 
   #' @param o The odds ratio.
   #' @return The logit.
+  #' 
+  #' @export oddsToLogit
   log(o)
 }

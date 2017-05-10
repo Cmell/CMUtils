@@ -46,6 +46,8 @@ vioplotCM <- function (x, ..., range = 1.5, h = NULL, ylim = NULL, names = NULL,
 #' @param labelMeans Logical. If true, the means for each group will be
 #'   calculated and added in parentheses to the \code{names} items.
 #' @param mnsDigits The number of digits to round the means values to.
+#' 
+#' @export vioplotCM
 
 {
   pkgList <- c("sm")

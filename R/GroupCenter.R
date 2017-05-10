@@ -11,6 +11,8 @@ groupCenter <- function(var, group, centerFn=mean, ...) {
   #' @param centerFn A function object used to compute the value to subtract
   #'   from each score. It should accept a vector (passed by \code{tapply}) and
   #'   return a single value.
+  #'   
+  #' @export groupCenter
 
   varC <- var - tapply(var, group, centerFn, ...)[group]
   return(varC)
