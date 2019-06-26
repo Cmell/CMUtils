@@ -14,7 +14,7 @@ f2_eta2 <- function (f2) {
   #' @param eta2 The \eqn{f^2} value.
   #' @return The \eqn{\eta^2_p}.
   #'
-  #' @export eta2_f2
+  #' @export f2_eta2
   f2 / (1 + f2)
 }
 
