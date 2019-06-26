@@ -4,8 +4,8 @@
 \alias{pLvlCenter}
 \title{Center Variables at the Participant Level}
 \usage{
-pLvlCenter(df, var, group = "pnum", cntrValFn = mean, returnType = c("df",
-  "vec"), ...)
+pLvlCenter(df, var, group = "pnum", cntrValFn = mean,
+  returnType = c("df", "vec"), ...)
 }
 \arguments{
 \item{df}{Data frame.}

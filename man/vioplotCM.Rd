@@ -5,13 +5,14 @@
 \title{violin plots with control}
 \usage{
 vioplotCM(x, ..., range = 1.5, h = NULL, ylim = NULL, names = NULL,
-  horizontal = FALSE, col = "cornflowerblue", border = "black", lty = 1,
-  lwd = 1, rectCol = "black", colMed = "white", pchMed = 19, at,
-  add = FALSE, wex = 1, drawRect = TRUE, na.fun = na.omit,
-  drawMean = T, mnLty = 2, mnLwd = 1.5, mnCol = "black",
-  mnLength = NULL, main = "", mainLine = 1, maincex = 1.5,
-  nameCex = 1, xlab = "", xlabLine = 2, xlabcex = 1.1, ylab = NULL,
-  ylabLine = 2.5, ylabcex = 1.3, labelMeans = F, mnsDigits = 2)
+  horizontal = FALSE, col = "cornflowerblue", border = "black",
+  lty = 1, lwd = 1, rectCol = "black", colMed = "white",
+  pchMed = 19, at, add = FALSE, wex = 1, drawRect = TRUE,
+  na.fun = na.omit, drawMean = T, mnLty = 2, mnLwd = 1.5,
+  mnCol = "black", mnLength = NULL, main = "", mainLine = 1,
+  maincex = 1.5, nameCex = 1, xlab = "", xlabLine = 2,
+  xlabcex = 1.1, ylab = NULL, ylabLine = 2.5, ylabcex = 1.3,
+  labelMeans = F, mnsDigits = 2)
 }
 \arguments{
 \item{x}{A vector of values to vioplot.}
